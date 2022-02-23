@@ -7,6 +7,7 @@ import Seo from "../components/seo"
 
 const ArticlePage = ({ data }) => {
   const article = data.strapiArticle
+  console.log(article)
 
   const seo = {
     metaTitle: article.title,
