@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "start": "cd backend && strapi start",
+    "start": "yarn --cwd backend start",
     "develop:backend": "yarn --cwd backend develop",
     "develop:frontend": "wait-on http://localhost:1337/admin && yarn --cwd frontend develop",
     "develop": "cross-env FORCE_COLOR=1 npm-run-all -l -p develop:*"
